@@ -22,9 +22,9 @@ else
     % Se calcula la raíz de la suma de los 4 elementos mayores.
     sum_max = sqrt(sum(vector(end-3:end)));
     % Se calcula la suma total.
-    sum_total = sum_min + sum_max;
+    final_result = sum_max - sum_min;
     % Se despliega por pantalla el resultado final.
-    fprintf('El resultado de la operación es: %f\n', sum_total);
+    fprintf('El resultado de la operación es: %f\n', final_result);
 end
 
     
