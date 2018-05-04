@@ -1,7 +1,7 @@
 % Segunda Parte - A
 
 polynomial = input('Ingrese el polinomio: '); % pide polinomio por consola
-max_iterations = input('Ingrese numero m√°ximo de iteraciones: '); % pide iteraciones por consola
+max_iterations = input('Ingrese numero m·ximo de iteraciones: '); % pide iteraciones por consola
 error = input('Ingrese error: '); % pide error por consola
 initial_x= input('Ingrese punto inicial: '); % Pide punto inicial por consola
 
