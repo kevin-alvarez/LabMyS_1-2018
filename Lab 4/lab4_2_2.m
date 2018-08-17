@@ -1,7 +1,6 @@
 % Laboratorio 4 - Parte 2.2
 
 % Ejemplo del sistema modelado
-
 graficarSistema(5,10, 50, 2, 1, 0,0);
 
 
@@ -15,8 +14,6 @@ end
 % Esta función grafica el comportamiento de un sistema desde un estado
 % inicial
 function  graficarSistema(Vs, R1, R2, C1, C2, V1, V2) 
-    V1_0 = V1;
-    V2_0 = V2;
     y = [];
     for i = 1:150
         [Y, dV] = sistema(Vs, R1, R2, C1, C2, V1, V2) ;
@@ -26,6 +23,7 @@ function  graficarSistema(Vs, R1, R2, C1, C2, V1, V2)
         V2 = V(1,2);
     end
     
+    % Graficar
     figure('Position', [100 100 800 500]);
     plot(y)
     grid;

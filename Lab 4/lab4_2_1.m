@@ -27,6 +27,7 @@ function  graficarSistema(F1, A, h1, h2)
         h2 = h(1,2);
     end
     
+    %Graficar
     figure('Position', [100 100 800 500]);
     plot(y)
     grid;
